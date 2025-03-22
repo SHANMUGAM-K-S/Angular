@@ -25,6 +25,7 @@
     "@angular-devkit/build-angular": "^19.2.4",
     "@angular/cli": "^19.2.4",
     "@angular/compiler-cli": "^19.2.0",
+    "@tailwindcss/postcss": "^4.0.15",
     "@types/jasmine": "~5.1.0",
     "autoprefixer": "^10.4.21",
     "jasmine-core": "~5.6.0",
@@ -37,12 +38,9 @@
     "tailwindcss": "^4.0.15",
     "typescript": "~5.7.2"
   },
-  
-    "overrides": {
-      "@angular-devkit/build-angular": {
-        "tailwindcss": "^4.0.0"
-      }
-    
+  "overrides": {
+    "@angular-devkit/build-angular": {
+      "tailwindcss": "^4.0.0"
+    }
   }
-  
 }

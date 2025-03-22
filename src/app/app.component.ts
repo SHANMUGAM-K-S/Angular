@@ -66,10 +66,18 @@ export class AppComponent {
 //       }
 
 
-textChange(event:any){
-  console.log("Button clicked",event);
-  // console.log("Function called",(event.target as Element).classList);
-  
-  
-}
+// textChange(event:any){
+//   console.log("Button clicked",event);
+//   // console.log("Function called",(event.target as Element).classList);
+// }
+
+// get & set input field value
+// name=""
+// getName(event:Event){
+//   this.name=(event.target as HTMLInputElement).value
+// }
+
+
+
+
 }
