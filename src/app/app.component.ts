@@ -15,7 +15,7 @@ import { ProfileComponent } from './profile/profile.component';
   styleUrl: './app.component.css'
 })
 export class AppComponent {
-  title = 'angular';
+  // title = 'angular';
 //   name:string="shanmugam"
 //   data:string|number="sk"
 //   other:any=true
@@ -77,7 +77,29 @@ export class AppComponent {
 //   this.name=(event.target as HTMLInputElement).value
 // }
 
+// if else statements
+
+// display=true
+// x=10
+// toggleDiv=true
+// hide(){
+//   this.display=false
+// }
+// show(){
+//   this.display=true
+// }
+
+// toggle(){
+//   this.toggleDiv=!this.toggleDiv
+// }
 
 
-
+// else if statements
+color=1
+handleColor(val:number){
+  this.color=val
+}
+handleInput(event:Event){
+  this.color=parseInt((event.target as HTMLInputElement).value)
+}
 }

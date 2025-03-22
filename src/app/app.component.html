@@ -54,6 +54,57 @@
 <!-- Style option and Rules -->
  <!-- <h1> Style option and Rules</h1> -->
 
- <!-- Angular if else statement -->
+ <!-- Angular if else statement
+<h1>If else | Control Flow statements</h1>
 
- 
+<button (click)="hide()">Hide Div</button>
+<button (click)="show()">Show Div</button>
+@if(display){
+    <div style="background-color:green; height:200px; width:200px;" >
+
+    </div>
+} -->
+
+<!-- 
+@if(display){
+    <div style="background-color:green; height:200px; width:200px;" >
+
+    </div>
+}
+  -->
+<!-- 
+<hr>
+<button (click)="toggle()"> {{toggleDiv?'show yellow div':'show red div '}} </button>
+@if(toggleDiv){
+    <div  style="background-color: red;width: 250px ;height: 250px;">
+
+    </div>
+}@else {
+    <div  style="background-color: yellow;width: 550px ;height: 550px;">
+
+    </div>
+} -->
+
+
+<!-- else if statements -->
+
+<h1>If else | Control Flow statements</h1>
+<button (click)="handleColor(1)">red</button>
+<button  (click)="handleColor(2)">blue</button>
+<button  (click)="handleColor(3)">green</button>
+<button  (click)="handleColor(4)">yellow</button>
+<input type="text" (input)="handleInput($event)" placeholder="color number">
+
+@if(color==1){
+    <div style="background-color: red;height: 100px;width: 100px;"></div>
+}
+@else if (color==2) {
+    <div style="background-color: blue;height: 100px;width: 100px;"></div>
+}
+@else if (color==3) {<div style="background-color: greenyellow;height: 100px;width: 100px;"></div>}
+
+@else{
+
+    <div style="background-color: yellow;height: 100px;width: 100px;"></div>
+}
+
