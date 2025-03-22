@@ -1,5 +1,5 @@
-
- <h1 class="">Shanmugam</h1>
+<!-- 
+ <h1 class="">Shanmugam</h1> -->
 <!-- <h3> {{title}}</h3>
 
 <h1>{{2==2}}</h1> -->
@@ -7,8 +7,36 @@
 <!-- Angular can override html features ...if we give html tag name as selector name like div or span it can override html and work properly  -->
 
 <!-- <app-login></app-login> -->
-<shanmugam></shanmugam>
+<!-- <shanmugam></shanmugam> -->
 <!-- <profile></profile> -->
 
-<button (click)="handleClick()" >Click me</button>
-<button (click)="handleClicking()" >Click the button</button>
+<!-- <button (click)="handleClick()" >Click me</button>
+<button (click)="handleClicking()" >Click the button</button> -->
+
+
+<!-- Counter App -->
+
+<!-- <h1 style="text-align: center;">Counter App</h1>
+
+<div style="text-align: center;">
+    <h2 class="count">{{count}}</h2>
+    <div class="">
+        <button (click)="handleCount('min')" class="dec">Decrement</button>
+        <button (click)="handleCount('')" class="res">Reset</button>
+        <button (click)="handleCount('plus')" class="inc">Increment</button>
+        
+    </div>
+</div> -->
+
+
+<!-- Click , Input , mouse , Focus , Blue Events -->
+<h1>Events in Angular</h1>
+
+<button class="btn-primary" (click)="textChange($event)">Click me</button>
+
+
+<br><br>
+
+<div (mouseenter)="textChange($event)" style="background-color: green;height: 200px;width: 200px;"></div>
+
+<div (mouseleave)="textChange($event)" style="background-color: red;height: 200px;width: 200px;"></div>

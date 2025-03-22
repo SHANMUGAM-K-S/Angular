@@ -1,0 +1,34 @@
+.count{
+    background: gray;
+    padding: 10px;
+    width: 100px;
+    margin: auto;border-radius: 10px;
+}
+h2{
+   
+    font-size: 28px;
+}
+
+.dec{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+cursor: pointer;
+color: wheat;
+background-color: red;
+}
+.res{
+    width: 80px;
+    height: 80px;color: wheat;
+    border-radius: 50%;cursor: pointer;
+   background-color:   aqua;
+}
+.inc{
+    width: 80px;
+    height: 80px;color: wheat;
+    border-radius: 50%;cursor: pointer;
+ background-color: green;
+}
+button{
+    margin: 10px;
+}
