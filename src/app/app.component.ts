@@ -9,8 +9,8 @@ import { ProfileComponent } from './profile/profile.component';
 @Component({
   selector: 'app-root',
   imports: [
-    // LoginComponent, TemporaryComponent, ShanmugamComponent,ProfileComponent
-  ],
+    ShanmugamComponent
+],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
@@ -95,11 +95,27 @@ export class AppComponent {
 
 
 // else if statements
-color=1
-handleColor(val:number){
-  this.color=val
-}
-handleInput(event:Event){
-  this.color=parseInt((event.target as HTMLInputElement).value)
-}
+// color=1
+// handleColor(val:number){
+//   this.color=val
+// }
+// handleInput(event:Event){
+//   this.color=parseInt((event.target as HTMLInputElement).value)
+// }
+////////////////////////////////////////
+
+// Switch statement
+// color='green'
+// handleColor(val:string){
+// this.color=val
+// }
+
+
+//////////////////////////////////////////
+// For loop 
+// users=['Shanmugam','Tony Stark','Steve Rogers']
+
+
+
+// Pass data from one page to other page
 }
