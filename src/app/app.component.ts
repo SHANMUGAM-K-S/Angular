@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+import { RouterLink, RouterOutlet } from '@angular/router';
 import { LoginComponent } from './login/login.component';
 import { TemporaryComponent } from "./temporary/temporary.component";
 import { ShanmugamComponent } from "./shanmugam/shanmugam.component";
@@ -8,8 +8,8 @@ import { ProfileComponent } from './profile/profile.component';
 
 @Component({
   selector: 'app-root',
-  imports: [
-    ShanmugamComponent
+  imports: [RouterLink,
+    RouterOutlet
 ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
@@ -117,5 +117,9 @@ export class AppComponent {
 
 
 
-// Pass data from one page to other page
+// Basic Routing
+
+// Pass data from one page to other
+
+
 }

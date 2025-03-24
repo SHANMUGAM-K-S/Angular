@@ -146,6 +146,21 @@
 
 
 
- <!-- Pass Data from one page to other -->
+ <!-- Basic Routing -->
 
- <shanmugam></shanmugam>
+ <h1>Basic Routing</h1>
+ <div style="display: flex;justify-content: space-between;">
+<div><h1>Shanmugam</h1>
+    
+</div>
+<div>
+ <ul style="display: flex;margin: 10px; ">
+    <li style="margin: 10px; list-style: none;"><a routerLink="/profile">Profile</a></li>
+    <li style="margin: 10px; list-style: none;"><a routerLink="/login">Login</a></li>
+    <li style="margin: 10px; list-style: none;"><a routerLink="/shanmugam">Shanmugam</a></li>
+    <li style="margin: 10px; list-style: none;"><a routerLink="/temporary">Temporary</a></li>
+ </ul></div>
+</div>
+<router-outlet/>
+
+<!-- Pass data from one page to other -->
